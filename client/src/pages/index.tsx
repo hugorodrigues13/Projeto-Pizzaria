@@ -12,7 +12,7 @@ export default function Home(){
         <Head>
             <title>Sujeito - Faça seu login</title>
         </Head>
-        <div>
+        <div className={styles.container}>
             <Image src={logoImg} alt="Logo Sujeito Pizzaria"/>
 
             <div className={styles.login}>
@@ -34,6 +34,7 @@ export default function Home(){
                         Cadastrar
                     </Button>
                 </form>
+                <a className={styles.text}>Não possui uma conta? Cadastre-se</a>
             </div>
         </div>
         </>
